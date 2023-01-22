@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark:#350363;
+    --backgroung:whitesmoke;
+}
+html{
+    font-size: 62.5%;
+}
+/* Our actuall content */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #491579;
+}
+main{
+    width: 35w;
+    text-align: center;
+    border: solid #491591d8;
+    background-color: rgb(255, 255, 255);
+    border-width: 0.4rem;
+    border-radius: 1rem;
+    padding: 4rem 1rem;
+    color: #1f2933 ;
+}
+h2{
+    font-size: 2rem;
+    margin: 1rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2rem;
+}
+.image{
+    width: 70%;
+    max-height: 22rem;
+    height: auto;
+    margin: 1rem 0 1rem 0;
+}
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+button{
+    color: white;
+    background-color: rgba(122, 42, 197, 0.884);
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem 4rem;
+    /* margin-top: 0.8rem; */
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: rgb(24, 24, 24) 0 1px 4px;
+    transition-duration: 0.1s;
+}
+button:last-child{
+    background: #491579;
+}
+#gameArea{
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#newGamebutton button{
+    margin: 2rem 0;
+}
+input{
+    border: 0.1rem solid lightgray;
+    background:transparent;
+    margin: 3rem 0;
+    border-radius: 2rem;
+    padding: 1rem 0;
+
+}
+.info{
+    margin: 1rem 0 4rem 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width:1200px) {
+    body{
+        width: 100vw;
+    }
+    main{
+        width: 50vw;
+        padding: 2rem;
+    }
+}
+button{
+    min-width: 17rem;
+}
+.button-wrapper button{
+    font-size: 1.5rem;
+}
+input{
+    width: 17rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.info span{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}

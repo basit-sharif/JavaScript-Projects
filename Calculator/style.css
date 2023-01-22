@@ -1,0 +1,90 @@
+body{
+background-image: url(./one.jpg);
+}
+#zero{
+    color: whitesmoke;
+    padding: 20px 73px;
+    width: 70px;
+    background-color: rgba(250, 4, 4, 0.703);
+    margin: 0 3px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.row1{
+    margin-bottom: 15.5px;
+    margin-top: 20px;
+}
+
+.Ce{
+    margin-left: 238px;
+    width: 45px;
+    height: 70px;
+    display: inline-block;
+    background-color:antiquewhite;
+}
+
+
+.row2{
+    margin-bottom: 9px;
+}
+.field{
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+.welcome{
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+
+/* #clearAll{
+    color: whitesmoke;
+     margin-left: 239px;
+    background-color: gray;
+    border: none;
+    border-radius: 100px;
+    display: inline-block;
+} */
+
+.text-align{
+    text-align: center;
+}
+.button{
+    border: none;
+    color: white;
+    background-color: rgba(250, 4, 4, 0.832);
+    padding: 20px;
+    width: 70px;
+    margin: 0 3px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.row{
+    margin: 6px 0;
+}
+.row input{
+    border: 3px solid red;
+    font-size: 18.9px;
+    color: gray;
+    padding: 14px 36px;
+    border-radius: 100px;
+}
+.items-center{
+    align-items: center;
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
